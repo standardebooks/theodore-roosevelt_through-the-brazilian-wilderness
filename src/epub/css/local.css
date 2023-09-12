@@ -35,3 +35,42 @@ section[epub|type~="dedication"] > footer{
 	}
 }
 /* End all dedications */
+
+/* All images */
+figure{
+	break-inside: avoid;
+}
+
+figure img{
+	display: block;
+	margin: auto;
+	max-width: 100%;
+}
+
+figcaption{
+	font-size: .75em;
+	font-style: italic;
+	margin: 1em;
+}
+
+figure.full-page{
+	break-after: page;
+	break-before: page;
+	margin: 0;
+	max-height: 100vh;
+	text-align: center;
+}
+
+@supports(display: flex){
+	figure.full-page{
+		display: flex;
+		flex-direction: column;
+	}
+
+	figure.full-page img{
+		height: 100vh;
+		object-fit: contain;
+	}
+}
+/* End all images */
+
