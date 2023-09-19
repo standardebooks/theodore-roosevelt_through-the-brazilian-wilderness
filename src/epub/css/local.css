@@ -50,6 +50,7 @@ figure img{
 figcaption{
 	font-size: .75em;
 	font-style: italic;
+	text-align: center;
 	margin: 1em;
 }
 
