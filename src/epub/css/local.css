@@ -73,5 +73,12 @@ figure.full-page{
 		object-fit: contain;
 	}
 }
+
+footer{
+	font-size: .75em;
+	font-style: italic;
+	text-align: center;
+	margin: 1em;
+}
 /* End all images */
 
