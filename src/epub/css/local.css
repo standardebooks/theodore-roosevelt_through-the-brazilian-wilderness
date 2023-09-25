@@ -81,3 +81,22 @@ footer{
 	text-align: center;
 }
 /* End all images */
+
+/* All tables */
+
+.center {
+	margin: 1em;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+table, th, td {
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+table td:nth-child(n+2) {
+	text-align: right;
+	font-variant-numeric: tabular-nums;
+}
+/* End all tables */
