@@ -74,7 +74,7 @@ figure.full-page{
 	}
 }
 
-footer{
+figure.footer{
 	font-size: .75em;
 	font-style: italic;
 	margin: 1em;
@@ -101,3 +101,37 @@ table td:nth-child(n+2){
 	text-align: right;
 }
 /* End all tables */
+
+/* Letters (preface/introduction) */
+[epub|type~="z3998:letter"] header{
+	text-align: right;
+}
+
+footer{
+	margin-top: 1em;
+	text-align: right;
+}
+
+[epub|type~="z3998:letter"] header + p{
+	text-indent: 0;
+}
+
+[epub|type~="z3998:recipient"]{
+	text-align: initial;
+}
+
+[epub|type~="z3998:sender"],
+[epub|type~="z3998:recipient"],
+[epub|type~="z3998:salutation"],
+[epub|type~="z3998:signature"]{
+	font-variant: small-caps;
+}
+
+[epub|type~="z3998:postscript"]{
+	margin-top: 1em;
+	text-align: initial;
+	text-indent: 0;
+}
+/* End letters */
+
+
