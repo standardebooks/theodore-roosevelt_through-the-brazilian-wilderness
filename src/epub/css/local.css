@@ -83,20 +83,14 @@ figure.footer{
 /* End all images */
 
 /* All tables */
+
 .center{
 	margin: 1em;
 	margin-left: auto;
 	margin-right: auto;
 }
 
-table,
-th,
-td{
-	border: 1px solid black;
-	border-collapse: collapse;
-}
-
-table td:nth-child(n+2){
+.center td:nth-child(n+2){
 	font-variant-numeric: tabular-nums;
 	text-align: right;
 }
