@@ -82,6 +82,10 @@ figure.footer{
 /* End all images */
 
 /* All tables */
+table, th, td {
+	border-collapse: collapse;
+  }
+
 .center{
 	margin: 1em;
 	margin-left: auto;
