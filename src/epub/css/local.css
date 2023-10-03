@@ -163,3 +163,10 @@ footer{
 	font-style: italic;
 }
 /* End all epigraphs */
+
+/* Inline images */
+.size {
+	width:25px;
+	height:25px;
+	}
+/* End Inline Images */
