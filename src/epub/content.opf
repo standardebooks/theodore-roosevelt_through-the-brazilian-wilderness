@@ -70,41 +70,41 @@
 		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Martin_Johnson_Heade</meta>
 		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n89656703</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
-		<dc:contributor id="photographer">Kermit Roosevelt</dc:contributor>
-		<meta property="file-as" refines="#photographer">Roosevelt, Kermit</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#photographer">https://en.wikipedia.org/wiki/Kermit_Roosevelt</meta>
-		<meta property="se:url.authority.nacoaf" refines="#photographer">http://id.loc.gov/authorities/names/no88000115</meta>
-		<meta property="role" refines="#photographer" scheme="marc:relators">pht</meta>
-		<dc:contributor id="photographer">George Kruck Cherrie</dc:contributor>
-		<meta property="file-as" refines="#photographer">Cherrie, George Kruck</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#photographer">https://en.wikipedia.org/wiki/George_Kruck_Cherrie</meta>
-		<meta property="se:url.authority.nacoaf" refines="#photographer">http://id.loc.gov/authorities/names/n2017001202</meta>
-		<meta property="role" refines="#photographer" scheme="marc:relators">pht</meta>
-		<dc:contributor id="photographer">Leo Edward Miller</dc:contributor>
-		<meta property="file-as" refines="#photographer">Miller, Leo Edward</meta>
-		<meta property="se:url.authority.nacoaf" refines="#photographer">http://id.loc.gov/authorities/names/no2008056909</meta>
-		<meta property="role" refines="#photographer" scheme="marc:relators">pht</meta>
-		<dc:contributor id="photographer">Vital Brazil</dc:contributor>
-		<meta property="file-as" refines="#photographer">Brazil, Vital</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#photographer">https://en.wikipedia.org/wiki/Vital_Brazil</meta>
-		<meta property="se:url.authority.nacoaf" refines="#photographer">http://id.loc.gov/authorities/names/no2003008392</meta>
-		<meta property="role" refines="#photographer" scheme="marc:relators">pht</meta>
-		<dc:contributor id="photographer">Elwin Roswell Sanborn</dc:contributor>
-		<meta property="file-as" refines="#photographer">Sanborn, Elwin Roswell</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#photographer">https://en.wikipedia.org/wiki/E._R._Sanborn</meta>
-		<meta property="se:url.authority.nacoaf" refines="#photographer">http://id.loc.gov/authorities/names/n87140268</meta>
-		<meta property="role" refines="#photographer" scheme="marc:relators">pht</meta>
-		<dc:contributor id="photographer">Anthony Fiala</dc:contributor>
-		<meta property="file-as" refines="#photographer">Fiala, Anthony</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#photographer">https://en.wikipedia.org/wiki/Anthony_Fiala</meta>
-		<meta property="se:url.authority.nacoaf" refines="#photographer">http://id.loc.gov/authorities/names/n94098133</meta>
-		<meta property="role" refines="#photographer" scheme="marc:relators">pht</meta>
-		<dc:contributor id="photographer">Frank Harper</dc:contributor>
-		<meta property="file-as" refines="#photographer">Harper, Frank</meta>
-		<meta property="role" refines="#photographer" scheme="marc:relators">pht</meta>
-		<dc:contributor id="photographer">Maza</dc:contributor>
-		<meta property="file-as" refines="#photographer">Maza</meta>
-		<meta property="role" refines="#photographer" scheme="marc:relators">pht</meta>
+		<dc:contributor id="photographer-1">Kermit Roosevelt</dc:contributor>
+		<meta property="file-as" refines="#photographer-1">Roosevelt, Kermit</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#photographer-1">https://en.wikipedia.org/wiki/Kermit_Roosevelt</meta>
+		<meta property="se:url.authority.nacoaf" refines="#photographer-1">http://id.loc.gov/authorities/names/no88000115</meta>
+		<meta property="role" refines="#photographer-1" scheme="marc:relators">pht</meta>
+		<dc:contributor id="photographer-2">George Kruck Cherrie</dc:contributor>
+		<meta property="file-as" refines="#photographer-2">Cherrie, George Kruck</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#photographer-2">https://en.wikipedia.org/wiki/George_Kruck_Cherrie</meta>
+		<meta property="se:url.authority.nacoaf" refines="#photographer-2">http://id.loc.gov/authorities/names/n2017001202</meta>
+		<meta property="role" refines="#photographer-2" scheme="marc:relators">pht</meta>
+		<dc:contributor id="photographer-3">Leo Edward Miller</dc:contributor>
+		<meta property="file-as" refines="#photographer-3">Miller, Leo Edward</meta>
+		<meta property="se:url.authority.nacoaf" refines="#photographer-3">http://id.loc.gov/authorities/names/no2008056909</meta>
+		<meta property="role" refines="#photographer-3" scheme="marc:relators">pht</meta>
+		<dc:contributor id="photographer-4">Vital Brazil</dc:contributor>
+		<meta property="file-as" refines="#photographer-4">Brazil, Vital</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#photographer-4">https://en.wikipedia.org/wiki/Vital_Brazil</meta>
+		<meta property="se:url.authority.nacoaf" refines="#photographer-4">http://id.loc.gov/authorities/names/no2003008392</meta>
+		<meta property="role" refines="#photographer-4" scheme="marc:relators">pht</meta>
+		<dc:contributor id="photographer-5">Elwin Roswell Sanborn</dc:contributor>
+		<meta property="file-as" refines="#photographer-5">Sanborn, Elwin Roswell</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#photographer-5">https://en.wikipedia.org/wiki/E._R._Sanborn</meta>
+		<meta property="se:url.authority.nacoaf" refines="#photographer-5">http://id.loc.gov/authorities/names/n87140268</meta>
+		<meta property="role" refines="#photographer-5" scheme="marc:relators">pht</meta>
+		<dc:contributor id="photographer-6">Anthony Fiala</dc:contributor>
+		<meta property="file-as" refines="#photographer-6">Fiala, Anthony</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#photographer-6">https://en.wikipedia.org/wiki/Anthony_Fiala</meta>
+		<meta property="se:url.authority.nacoaf" refines="#photographer-6">http://id.loc.gov/authorities/names/n94098133</meta>
+		<meta property="role" refines="#photographer-6" scheme="marc:relators">pht</meta>
+		<dc:contributor id="photographer-7">Frank Harper</dc:contributor>
+		<meta property="file-as" refines="#photographer-7">Harper, Frank</meta>
+		<meta property="role" refines="#photographer-7" scheme="marc:relators">pht</meta>
+		<dc:contributor id="photographer-8">Maza</dc:contributor>
+		<meta property="file-as" refines="#photographer-8">Maza</meta>
+		<meta property="role" refines="#photographer-8" scheme="marc:relators">pht</meta>
 		<dc:contributor id="transcriber-1">John Bickers</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Bickers, John</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
