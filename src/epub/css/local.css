@@ -82,10 +82,11 @@ figure.full-page{
 /* End all images */
 
 /* All tables */
-
-table, th, td {
+table,
+th,
+td{
 	border: 1px solid;
-  }
+}
 
 table,
 th,
@@ -104,13 +105,12 @@ td{
 	text-align: right;
 }
 
-.noborder {
-    border:none !important;
+.noborder{
+	border: none !important;
 	margin: 1em;
 	margin-left: auto;
 	margin-right: auto;
 }
-
 /* End all tables */
 
 /* Letters (preface/introduction) */
@@ -136,7 +136,6 @@ footer{
 [epub|type~="z3998:signature"]{
 	font-variant: small-caps;
 }
-
 /* End letters */
 
 /* Inline verse */
