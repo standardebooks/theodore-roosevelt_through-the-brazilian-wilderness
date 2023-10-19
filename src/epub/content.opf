@@ -52,6 +52,7 @@
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/11746</dc:source>
 		<dc:source>https://archive.org/details/throughbrazilian0000roos</dc:source>
+		<meta property="se:production-notes">The transcription from Project Gutenburg was missing diacritics and italics, which have been restored. Roosevelt uses ° and ′ symbols for lat and long throughout the text, save for Appendix C, where he uses the words. The book has been normalized to use the symbols throughout.</meta> 
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/theodore-roosevelt_through-the-brazilian-wilderness</meta>
