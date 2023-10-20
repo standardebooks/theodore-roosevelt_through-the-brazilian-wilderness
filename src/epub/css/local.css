@@ -53,6 +53,10 @@ figcaption{
 	text-align: center;
 }
 
+figcaption i{
+	font-style: normal;
+}
+
 figure.full-page{
 	break-after: page;
 	break-before: page;
