@@ -167,17 +167,14 @@ footer{
 }
 /* End inline verse */
 
-/* All epigraphs */
-[epub|type~="epigraph"]{
-	font-style: italic;
-	hyphens: none;
-	-epub-hyphens: none;
-}
-/* End all epigraphs */
-
 /* Inline images */
 .size{
 	height: 25px;
 	width: 25px;
 }
 /* End Inline Images */
+
+#chapter-8 blockquote{
+	font-variant: small-caps;
+	text-align: center;
+}
