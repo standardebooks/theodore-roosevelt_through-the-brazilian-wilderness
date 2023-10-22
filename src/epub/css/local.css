@@ -52,7 +52,8 @@ figure img{
 	max-width: 100%;
 }
 
-figcaption{
+figcaption,
+.caption{
 	font-size: .75em;
 	font-style: italic;
 	margin: 1em;
@@ -81,13 +82,6 @@ figure.full-page{
 		height: 100vh;
 		object-fit: contain;
 	}
-}
-
-.caption{
-	font-size: .75em;
-	font-style: italic;
-	margin: 1em;
-	text-align: center;
 }
 /* End all images */
 
