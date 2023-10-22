@@ -3,7 +3,13 @@
 
 /* All dedications */
 section[epub|type~="dedication"]{
+	font-variant: small-caps;
 	text-align: center;
+	line-height: 2;
+}
+
+section[epub|type~="dedication"] b{
+font-size: 1.5em;
 }
 
 section[epub|type~="dedication"] > *{
