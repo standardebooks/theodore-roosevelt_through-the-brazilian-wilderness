@@ -104,12 +104,6 @@ td{
 	text-align: right;
 }
 
-.noborder{
-	border: none !important;
-	margin: 1em;
-	margin-left: auto;
-	margin-right: auto;
-}
 /* End all tables */
 
 /* Letters (preface/introduction) */
@@ -166,4 +160,20 @@ footer{
 #chapter-8 blockquote{
 	font-variant: small-caps;
 	text-align: center;
+}
+#appendix-b div{
+	text-align: center;
+}
+
+#appendix-b ul{
+	text-align: initial;
+	list-style-type: none;
+	list-style-position: inside;
+	columns: 2;
+	-webkit-columns: 2;
+	-moz-columns: 2;
+	display: inline-block;
+    vertical-align: middle;
+	margin-left: auto;
+	margin-right: auto;
 }
