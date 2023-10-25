@@ -86,22 +86,33 @@ figure.full-page{
 /* End all images */
 
 /* All tables */
-table,
-th,
-td{
+th{
+	font-variant: small-caps;
+	font-weight: bold;
 	border: 1px solid;
 	border-collapse: collapse;
 }
 
-.center{
-	margin: 1em;
-	margin-left: auto;
-	margin-right: auto;
+table,
+th,
+td{
+	font-variant-numeric: tabular-nums;
+	border-right: 1px solid;
+	border-left: 1px solid;
+	border-collapse: collapse;
+	margin: 1em auto;
+	padding-left: .5em;
+	padding-right: .5em;
 }
 
-.center td:nth-child(n+2){
-	font-variant-numeric: tabular-nums;
-	text-align: right;
+caption{
+	caption-side: bottom;
+	margin: 1em;
+	text-align: initial;
+}
+
+tr:last-child{
+	border-bottom: 1px solid;
 }
 
 /* End all tables */
