@@ -4,12 +4,12 @@
 /* All dedications */
 section[epub|type~="dedication"]{
 	font-variant: small-caps;
-	text-align: center;
 	line-height: 2;
+	text-align: center;
 }
 
 section[epub|type~="dedication"] b{
-font-size: 1.5em;
+	font-size: 1.5em;
 }
 
 section[epub|type~="dedication"] > *{
@@ -87,19 +87,19 @@ figure.full-page{
 
 /* All tables */
 th{
-	font-variant: small-caps;
-	font-weight: bold;
 	border: 1px solid;
 	border-collapse: collapse;
+	font-variant: small-caps;
+	font-weight: bold;
 }
 
 table,
 th,
 td{
-	font-variant-numeric: tabular-nums;
-	border-right: 1px solid;
-	border-left: 1px solid;
 	border-collapse: collapse;
+	border-left: 1px solid;
+	border-right: 1px solid;
+	font-variant-numeric: tabular-nums;
 	margin: 1em auto;
 	padding-left: .5em;
 	padding-right: .5em;
@@ -114,7 +114,6 @@ caption{
 tr:last-child{
 	border-bottom: 1px solid;
 }
-
 /* End all tables */
 
 /* Letters (preface/introduction) */
@@ -172,20 +171,21 @@ footer{
 	font-variant: small-caps;
 	text-align: center;
 }
+
 #appendix-b div{
 	text-align: center;
 }
 
 #appendix-b ul{
-	text-align: initial;
-	list-style-type: none;
-	list-style-position: inside;
 	columns: 2;
-	width: 35em;
-	-webkit-columns: 2;
 	-moz-columns: 2;
+	-webkit-columns: 2;
 	display: inline-block;
-    vertical-align: middle;
+	list-style-position: inside;
+	list-style-type: none;
 	margin-left: auto;
 	margin-right: auto;
+	text-align: initial;
+	vertical-align: middle;
+	width: 35em;
 }
