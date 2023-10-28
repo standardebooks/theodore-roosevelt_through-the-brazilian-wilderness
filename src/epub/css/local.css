@@ -53,7 +53,7 @@ figure img{
 }
 
 figcaption,
-.caption{
+.group-caption{
 	font-size: .75em;
 	font-style: italic;
 	margin: 1em;
