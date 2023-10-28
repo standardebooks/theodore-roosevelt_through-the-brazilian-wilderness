@@ -177,15 +177,10 @@ footer{
 }
 
 #appendix-b ul{
-	columns: 2;
-	-moz-columns: 2;
-	-webkit-columns: 2;
-	display: inline-block;
-	list-style-position: inside;
 	list-style-type: none;
-	margin-left: auto;
-	margin-right: auto;
+	column-count: 2;
+	display: inline-block;
 	text-align: initial;
 	vertical-align: middle;
-	width: 35em;
+	column-gap: 5;
 }
