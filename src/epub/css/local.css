@@ -99,22 +99,22 @@ th{
 	padding-right: .5em;
 }
 
-th[scope='row']{
+th[scope="row"]{
 	border: 1px solid;
 	font-variant: normal;
 	font-weight: initial;
-	text-align: initial;
 	padding-left: .5em;
 	padding-right: .5em;
+	text-align: initial;
 }
 
 td{
 	border-left: 1px solid;
 	border-right: 1px solid;
 	font-variant-numeric: tabular-nums;
-	text-align: right;
 	padding-left: .5em;
 	padding-right: .5em;
+	text-align: right;
 }
 
 caption{
@@ -189,10 +189,10 @@ footer{
 }
 
 #appendix-b ul{
-	list-style-type: none;
 	column-count: 2;
+	column-gap: 5;
 	display: inline-block;
+	list-style-type: none;
 	text-align: initial;
 	vertical-align: middle;
-	column-gap: 5;
 }
