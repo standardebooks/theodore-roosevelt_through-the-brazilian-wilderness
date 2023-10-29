@@ -100,7 +100,7 @@ th{
 }
 
 th[scope="row"]{
-	border: 1px solid;
+	border: none;
 	font-variant: normal;
 	font-weight: initial;
 	padding-left: .5em;
