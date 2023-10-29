@@ -190,7 +190,7 @@ footer{
 
 #appendix-b ul{
 	column-count: 2;
-	column-gap: 5;
+	column-gap: 1em;
 	display: inline-block;
 	list-style-type: none;
 	text-align: initial;
