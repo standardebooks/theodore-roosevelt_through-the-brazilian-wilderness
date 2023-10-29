@@ -86,21 +86,33 @@ figure.full-page{
 /* End all images */
 
 /* All tables */
-th{
+table{
 	border: 1px solid;
 	border-collapse: collapse;
-	font-variant: small-caps;
-	font-weight: bold;
+	margin: 1em auto;
 }
 
-table,
-th,
+th{
+	border: 1px solid;
+	font-variant: small-caps;
+	padding-left: .5em;
+	padding-right: .5em;
+}
+
+th[scope='row']{
+	border: 1px solid;
+	font-variant: normal;
+	font-weight: initial;
+	text-align: initial;
+	padding-left: .5em;
+	padding-right: .5em;
+}
+
 td{
-	border-collapse: collapse;
 	border-left: 1px solid;
 	border-right: 1px solid;
 	font-variant-numeric: tabular-nums;
-	margin: 1em auto;
+	text-align: right;
 	padding-left: .5em;
 	padding-right: .5em;
 }
