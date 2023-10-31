@@ -173,8 +173,9 @@ footer{
 /* End inline verse */
 
 /* Inline images */
-.carving{
+p img{
 	height: 25px;
+	vertical-align: middle;
 	width: 25px;
 }
 /* End Inline Images */
@@ -184,15 +185,12 @@ footer{
 	text-align: center;
 }
 
-#appendix-b div{
-	text-align: center;
+#appendix-b table:last-of-type,
+#appendix-b table:last-of-type tr:last-child{
+	border: none;
 }
 
-#appendix-b ul{
-	column-count: 2;
-	column-gap: 1em;
-	display: inline-block;
-	list-style-type: none;
-	text-align: initial;
-	vertical-align: middle;
+#appendix-b table:last-of-type td{
+	border: none;
+	text-align: left;
 }
