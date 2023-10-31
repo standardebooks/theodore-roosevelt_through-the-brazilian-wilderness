@@ -31,7 +31,7 @@ section[epub|type~="dedication"] > footer{
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
-		min-height: calc(98vh -3em);
+		min-height: calc(98vh - 3em);
 		padding-top: 3em;
 	}
 
@@ -140,6 +140,10 @@ footer{
 
 [epub|type~="z3998:letter"] header + p{
 	text-indent: 0;
+}
+
+[epub|type~="z3998:letter"] header [epub|type~="z3998:salutation"]{
+	margin-top: 1em;
 }
 
 [epub|type~="z3998:recipient"],
