@@ -2,8 +2,8 @@
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/theodore-roosevelt/through-the-brazilian-wilderness</dc:identifier>
-		<dc:date>1900-01-01T00:00:00Z</dc:date>
-		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
+		<dc:date>2023-10-31T18:23:58Z</dc:date>
+		<meta property="dcterms:modified">2023-10-31T18:23:58Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
@@ -43,18 +43,18 @@
 		<meta property="authority" refines="#subject-4">LCSH</meta>
 		<meta property="term" refines="#subject-4">sh93009570</meta>
 		<meta property="se:subject">Nonfiction</meta>
+		<meta property="se:subject">Travel</meta>
 		<dc:description id="description">Theodore Roosevelt’s autobiographical account of his expedition into the uncharted depths of the Brazilian rainforest.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;After failing to win a third term in the elections of 1912, former U.S. president &lt;a href="https://standardebooks.org/ebooks/theodore-roosevelt"&gt;Theodore Roosevelt&lt;/a&gt; planned a speaking trip to Argentina and Brazil and a cruise up the Amazon. The government of Brazil suggested that Roosevelt join the famous Brazilian explorer Cândido Rondon in an expedition down the recently discovered River of Doubt. Roosevelt accepted the invitation and, accompanied by his son Kermit, reached the river with Rondon on February 27, 1914. From the beginning, the expedition was fraught with difficulties, including disease, lack of supplies, and hostility from the local tribes. Roosevelt nearly died from an infected wound.&lt;/p&gt;
-			&lt;p&gt;This work is his account of the expedition, which despite its problems, managed to map parts of the river and to discover several previously unknown species of animals and plants. The River of Doubt is now called Rio Roosevelt.&lt;/p&gt;
-			&lt;p&gt;&lt;i&gt;Through the Brazilian Wilderness&lt;/i&gt; was used as a basis for author Candice Millard’s 2005 New York Times bestseller &lt;i&gt;The River of Doubt: Theodore Roosevelt’s Darkest Journey&lt;/i&gt;.&lt;/p&gt;
+			&lt;p&gt;This book is his account of the expedition, which, despite its problems, managed to map parts of the river and to discover several previously-unknown species of animals and plants. The River of Doubt is now called Rio Roosevelt.&lt;/p&gt;
 		</meta>
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/11746</dc:source>
 		<dc:source>https://archive.org/details/throughbrazilian0000roos</dc:source>
-		<meta property="se:production-notes">The transcription from Project Gutenburg was missing diacritics and italics, which have been restored. Roosevelt uses ° and ′ symbols for lat and long throughout the text, save for Appendix C, where he uses the words. The book has been normalized to use the symbols throughout.</meta>
-		<meta property="se:word-count">WORD_COUNT</meta>
-		<meta property="se:reading-ease.flesch">READING_EASE</meta>
+		<meta property="se:production-notes">Roosevelt uses ° and ′ symbols for lat and long throughout the text, save for Appendix C, where he uses the words. The book has been normalized to use the symbols throughout.</meta>
+		<meta property="se:word-count">113575</meta>
+		<meta property="se:reading-ease.flesch">56.49</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/theodore-roosevelt_through-the-brazilian-wilderness</meta>
 		<dc:creator id="author">Theodore Roosevelt</dc:creator>
 		<meta property="file-as" refines="#author">Roosevelt, Theodore</meta>
@@ -121,6 +121,10 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">mrk</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">pfr</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
+		<dc:contributor id="producer-2">Vince Rice</dc:contributor>
+		<meta property="file-as" refines="#producer-2">Rice, Vince</meta>
+		<meta property="se:url.homepage" refines="#producer-2">https://www.brokenandsaved.com</meta>
+		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
 		<item href="css/core.css" id="core.css" media-type="text/css"/>
