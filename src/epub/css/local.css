@@ -196,5 +196,5 @@ p img{
 
 #appendix-b table:last-of-type td{
 	border: none;
-	text-align: left;
+	text-align: initial;
 }
