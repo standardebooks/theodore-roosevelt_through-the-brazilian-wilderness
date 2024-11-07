@@ -9,7 +9,7 @@ section[epub|type~="dedication"]{
 }
 
 section[epub|type~="dedication"] b{
-	font-size: 1.25em;
+	font-size: larger;
 }
 
 section[epub|type~="dedication"] > *{
