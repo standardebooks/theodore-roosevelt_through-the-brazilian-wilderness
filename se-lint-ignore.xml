@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<se-lint-ignore>
+	<file path="chapter-9.xhtml">
+		<ignore>
+			<code>t-076</code>
+			<reason>Matches are words as shapes, not graphemes.</reason>
+		</ignore>
+	</file>
+</se-lint-ignore>
