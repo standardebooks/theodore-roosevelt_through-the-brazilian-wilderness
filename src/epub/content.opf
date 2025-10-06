@@ -47,7 +47,7 @@
 		<dc:description id="description">Theodore Roosevelt’s autobiographical account of his expedition into the uncharted depths of the Brazilian rainforest.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;After failing to win a third term in the elections of 1912, former U.S. president &lt;a href="https://standardebooks.org/ebooks/theodore-roosevelt"&gt;Theodore Roosevelt&lt;/a&gt; planned a speaking trip to Argentina and Brazil and a cruise up the Amazon. The government of Brazil suggested that Roosevelt join the famous Brazilian explorer Cândido Rondon in an expedition down the recently discovered River of Doubt. Roosevelt accepted the invitation and, accompanied by his son Kermit, reached the river with Rondon on February 27, 1914. From the beginning, the expedition was fraught with difficulties, including disease, lack of supplies, and hostility from the local tribes. Roosevelt nearly died from an infected wound.&lt;/p&gt;
-			&lt;p&gt;This book is his account of the expedition, which, despite its problems, managed to map parts of the river and to discover several previously-unknown species of animals and plants. The River of Doubt is now called Rio Roosevelt.&lt;/p&gt;
+			&lt;p&gt;This book is his account of the expedition, which, despite its problems, managed to map parts of the river and to discover several previously unknown species of animals and plants. The River of Doubt is now called Rio Roosevelt.&lt;/p&gt;
 		</meta>
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/11746</dc:source>
