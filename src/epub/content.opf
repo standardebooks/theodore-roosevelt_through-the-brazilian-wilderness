@@ -115,12 +115,12 @@
 		<dc:contributor id="producer-1">Kevin Palm</dc:contributor>
 		<meta property="file-as" refines="#producer-1">Palm, Kevin</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
-		<meta property="role" refines="#producer-1" scheme="marc:relators">wat</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">mrk</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">pfr</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
+		<meta property="role" refines="#producer-1" scheme="marc:relators">wat</meta>
 		<dc:contributor id="producer-2">Vince Rice</dc:contributor>
 		<meta property="file-as" refines="#producer-2">Rice, Vince</meta>
 		<meta property="se:url.homepage" refines="#producer-2">https://www.brokenandsaved.com/</meta>
