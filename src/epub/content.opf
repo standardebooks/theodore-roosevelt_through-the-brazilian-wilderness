@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0 rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/theodore-roosevelt/through-the-brazilian-wilderness</dc:identifier>
 		<dc:date>2023-10-31T18:23:58Z</dc:date>
 		<meta property="dcterms:modified">2023-10-31T18:23:58Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
+		<meta property="rdf:type">http://schema.org/Book</meta>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
-		<meta property="se:url.homepage" refines="#publisher">https://standardebooks.org/</meta>
+		<link href="https://standardebooks.org/" refines="#publisher" rel="schema:url"/>
 		<meta property="role" refines="#publisher" scheme="marc:relators">bkd</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">mdc</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">pbl</meta>
 		<dc:contributor id="type-designer">The League of Moveable Type</dc:contributor>
 		<meta property="file-as" refines="#type-designer">League of Moveable Type, The</meta>
-		<meta property="se:url.homepage" refines="#type-designer">https://www.theleagueofmoveabletype.com/</meta>
+		<link href="https://www.theleagueofmoveabletype.com/" refines="#type-designer" rel="schema:url"/>
 		<meta property="role" refines="#type-designer" scheme="marc:relators">tyd</meta>
 		<meta id="conformance-statement" property="dcterms:conformsTo">EPUB Accessibility 1.1 - WCAG 2.2 Level AA</meta>
 		<meta property="a11y:certifiedBy" refines="#conformance-statement">Standard Ebooks</meta>
@@ -42,8 +43,8 @@
 		<meta property="term" refines="#subject-3">sh2008124325</meta>
 		<meta property="authority" refines="#subject-4">LCSH</meta>
 		<meta property="term" refines="#subject-4">sh93009570</meta>
-		<meta property="se:subject">Nonfiction</meta>
-		<meta property="se:subject">Travel</meta>
+		<meta property="schema:genre">Nonfiction</meta>
+		<meta property="schema:genre">Travel</meta>
 		<dc:description id="description">Theodore Roosevelt’s autobiographical account of his expedition into the uncharted depths of the Brazilian rainforest.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;After failing to win a third term in the elections of 1912, former U.S. president &lt;a href="https://standardebooks.org/ebooks/theodore-roosevelt"&gt;Theodore Roosevelt&lt;/a&gt; planned a speaking trip to Argentina and Brazil and a cruise up the Amazon. The government of Brazil suggested that Roosevelt join the famous Brazilian explorer Cândido Rondon in an expedition down the recently discovered River of Doubt. Roosevelt accepted the invitation and, accompanied by his son Kermit, reached the river with Rondon on February 27, 1914. From the beginning, the expedition was fraught with difficulties, including disease, lack of supplies, and hostility from the local tribes. Roosevelt nearly died from an infected wound.&lt;/p&gt;
@@ -52,15 +53,16 @@
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/11746</dc:source>
 		<dc:source>https://archive.org/details/throughbrazilian0000roos</dc:source>
-		<meta property="se:production-notes">Roosevelt uses ° and ′ symbols for lat and long throughout the text, save for Appendix C, where he uses the words. The book has been normalized to use the symbols throughout.</meta>
-		<meta property="se:word-count">113357</meta>
-		<meta property="se:reading-ease.flesch">56.69</meta>
-		<meta property="se:url.vcs.github">https://github.com/standardebooks/theodore-roosevelt_through-the-brazilian-wilderness</meta>
+		<meta property="schema:wordCount">113357</meta>
+		<meta property="schema:educationalLevel">56.69</meta>
+		<meta property="schema:workExample" id="vcs-repository">schema:workExample</meta>
+		<meta property="rdf:type" refines="#vcs-repository">http://schema.org/SoftwareSourceCode</meta>
+		<link href="https://github.com/standardebooks/theodore-roosevelt_through-the-brazilian-wilderness" refines="#vcs-repository" rel="schema:codeRepository"/>
 		<dc:creator id="author">Theodore Roosevelt</dc:creator>
 		<meta property="file-as" refines="#author">Roosevelt, Theodore</meta>
-		<meta property="se:name.person.full-name" refines="#author">Theodore Roosevelt Jr.</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Theodore_Roosevelt</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n79027239</meta>
+		<meta property="schema:alternateName" refines="#author">Theodore Roosevelt Jr.</meta>
+		<link href="https://en.wikipedia.org/wiki/Theodore_Roosevelt" refines="#author" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n79027239.html" refines="#author" rel="schema:sameAs"/>
 		<meta property="role" refines="#author" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">dto</meta>
@@ -69,37 +71,37 @@
 		<meta property="role" refines="#author" scheme="marc:relators">wpr</meta>
 		<dc:contributor id="artist">Martin Johnson Heade</dc:contributor>
 		<meta property="file-as" refines="#artist">Heade, Martin Johnson</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Martin_Johnson_Heade</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n89656703</meta>
+		<link href="https://en.wikipedia.org/wiki/Martin_Johnson_Heade" refines="#artist" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n89656703.html" refines="#artist" rel="schema:sameAs"/>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="photographer-1">Kermit Roosevelt</dc:contributor>
 		<meta property="file-as" refines="#photographer-1">Roosevelt, Kermit</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#photographer-1">https://en.wikipedia.org/wiki/Kermit_Roosevelt</meta>
-		<meta property="se:url.authority.nacoaf" refines="#photographer-1">http://id.loc.gov/authorities/names/no88000115</meta>
+		<link href="https://en.wikipedia.org/wiki/Kermit_Roosevelt" refines="#photographer-1" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/no88000115.html" refines="#photographer-1" rel="schema:sameAs"/>
 		<meta property="role" refines="#photographer-1" scheme="marc:relators">pht</meta>
 		<dc:contributor id="photographer-2">George Kruck Cherrie</dc:contributor>
 		<meta property="file-as" refines="#photographer-2">Cherrie, George Kruck</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#photographer-2">https://en.wikipedia.org/wiki/George_Kruck_Cherrie</meta>
-		<meta property="se:url.authority.nacoaf" refines="#photographer-2">http://id.loc.gov/authorities/names/n2017001202</meta>
+		<link href="https://en.wikipedia.org/wiki/George_Kruck_Cherrie" refines="#photographer-2" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n2017001202.html" refines="#photographer-2" rel="schema:sameAs"/>
 		<meta property="role" refines="#photographer-2" scheme="marc:relators">pht</meta>
 		<dc:contributor id="photographer-3">Leo Edward Miller</dc:contributor>
 		<meta property="file-as" refines="#photographer-3">Miller, Leo Edward</meta>
-		<meta property="se:url.authority.nacoaf" refines="#photographer-3">http://id.loc.gov/authorities/names/no2008056909</meta>
+		<link href="https://id.loc.gov/authorities/names/no2008056909.html" refines="#photographer-3" rel="schema:sameAs"/>
 		<meta property="role" refines="#photographer-3" scheme="marc:relators">pht</meta>
 		<dc:contributor id="photographer-4">Vital Brazil</dc:contributor>
 		<meta property="file-as" refines="#photographer-4">Brazil, Vital</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#photographer-4">https://en.wikipedia.org/wiki/Vital_Brazil</meta>
-		<meta property="se:url.authority.nacoaf" refines="#photographer-4">http://id.loc.gov/authorities/names/no2003008392</meta>
+		<link href="https://en.wikipedia.org/wiki/Vital_Brazil" refines="#photographer-4" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/no2003008392.html" refines="#photographer-4" rel="schema:sameAs"/>
 		<meta property="role" refines="#photographer-4" scheme="marc:relators">pht</meta>
 		<dc:contributor id="photographer-5">Elwin Roswell Sanborn</dc:contributor>
 		<meta property="file-as" refines="#photographer-5">Sanborn, Elwin Roswell</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#photographer-5">https://en.wikipedia.org/wiki/E._R._Sanborn</meta>
-		<meta property="se:url.authority.nacoaf" refines="#photographer-5">http://id.loc.gov/authorities/names/n87140268</meta>
+		<link href="https://en.wikipedia.org/wiki/E._R._Sanborn" refines="#photographer-5" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n87140268.html" refines="#photographer-5" rel="schema:sameAs"/>
 		<meta property="role" refines="#photographer-5" scheme="marc:relators">pht</meta>
 		<dc:contributor id="photographer-6">Anthony Fiala</dc:contributor>
 		<meta property="file-as" refines="#photographer-6">Fiala, Anthony</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#photographer-6">https://en.wikipedia.org/wiki/Anthony_Fiala</meta>
-		<meta property="se:url.authority.nacoaf" refines="#photographer-6">http://id.loc.gov/authorities/names/n94098133</meta>
+		<link href="https://en.wikipedia.org/wiki/Anthony_Fiala" refines="#photographer-6" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n94098133.html" refines="#photographer-6" rel="schema:sameAs"/>
 		<meta property="role" refines="#photographer-6" scheme="marc:relators">pht</meta>
 		<dc:contributor id="photographer-7">Frank Harper</dc:contributor>
 		<meta property="file-as" refines="#photographer-7">Harper, Frank</meta>
@@ -124,7 +126,7 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">wat</meta>
 		<dc:contributor id="producer-2">Vince Rice</dc:contributor>
 		<meta property="file-as" refines="#producer-2">Rice, Vince</meta>
-		<meta property="se:url.homepage" refines="#producer-2">https://www.brokenandsaved.com/</meta>
+		<link href="https://www.brokenandsaved.com/" refines="#producer-2" rel="schema:url"/>
 		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
