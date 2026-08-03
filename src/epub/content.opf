@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0 rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/theodore-roosevelt/through-the-brazilian-wilderness</dc:identifier>
 		<dc:date>2023-10-31T18:23:58Z</dc:date>
@@ -45,11 +45,11 @@
 		<meta property="term" refines="#subject-4">sh93009570</meta>
 		<meta property="schema:genre">Nonfiction</meta>
 		<meta property="schema:genre">Travel</meta>
-		<dc:description id="description">Theodore Roosevelt’s autobiographical account of his expedition into the uncharted depths of the Brazilian rainforest.</dc:description>
-		<meta id="long-description" property="se:long-description" refines="#description">
+		<dc:abstract>Theodore Roosevelt’s autobiographical account of his expedition into the uncharted depths of the Brazilian rainforest.</dc:abstract>
+		<dc:description>
 			&lt;p&gt;After failing to win a third term in the elections of 1912, former U.S. president &lt;a href="https://standardebooks.org/ebooks/theodore-roosevelt"&gt;Theodore Roosevelt&lt;/a&gt; planned a speaking trip to Argentina and Brazil and a cruise up the Amazon. The government of Brazil suggested that Roosevelt join the famous Brazilian explorer Cândido Rondon in an expedition down the recently discovered River of Doubt. Roosevelt accepted the invitation and, accompanied by his son Kermit, reached the river with Rondon on February 27, 1914. From the beginning, the expedition was fraught with difficulties, including disease, lack of supplies, and hostility from the local tribes. Roosevelt nearly died from an infected wound.&lt;/p&gt;
 			&lt;p&gt;This book is his account of the expedition, which, despite its problems, managed to map parts of the river and to discover several previously unknown species of animals and plants. The River of Doubt is now called Rio Roosevelt.&lt;/p&gt;
-		</meta>
+		</dc:description>
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/11746</dc:source>
 		<dc:source>https://archive.org/details/throughbrazilian0000roos</dc:source>
