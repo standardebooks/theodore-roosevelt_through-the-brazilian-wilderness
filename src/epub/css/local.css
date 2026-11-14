@@ -105,9 +105,14 @@ td{
 }
 
 caption{
-	caption-side: bottom;
 	margin: 1em;
 	text-align: initial;
+}
+
+@supports(caption-side:bottom){
+	caption{
+		caption-side: bottom;
+	}
 }
 
 tr:last-child{
